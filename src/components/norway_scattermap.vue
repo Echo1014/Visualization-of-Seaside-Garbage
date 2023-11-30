@@ -543,7 +543,7 @@ export default {
         thisChart.setOption(newoption);
         this.isDraw=true
       } catch (error) {
-        console.log(error)
+        console.log('run this',error)
       }
       }
     },
@@ -817,9 +817,9 @@ export default {
         // others:['#e74c3c', '#c0392b', '#d35400', '#e67e22']
         fisheries:'green',
         industrial:'blue',
-        personal_use:'purple',
+        personal_use:'yellow',
         others:'red',
-        hygiene:'yellow',
+        hygiene:'purple',
       }
       this.drawClear()
       let thisChart=this.mycharts;
